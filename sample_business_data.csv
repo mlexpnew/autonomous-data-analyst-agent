@@ -1,0 +1,501 @@
+Company,Category,Region,Year,Revenue_USD_M,Profit_USD_M,Employees,Customer_Count,Growth_Rate_Pct,Customer_Satisfaction,Marketing_Spend_USD_M
+FutureTech,Software,North America,2024,35.03,12.12,3562,909,15.26,4.0,4.16
+AlphaAI,Software,Latin America,2023,26.2,19.09,4163,4188,4.69,3.3,7.11
+InnoVate,Software,Asia Pacific,2023,76.36,17.54,1624,2474,9.31,3.2,13.77
+BetaWave,Cloud,Latin America,2023,71.71000000000001,14.74,4860,9306,18.54,4.7,1.77
+FutureTech,Software,Latin America,2021,54.56,14.51,132,4067,3.87,5.0,2.81
+MegaCorp,AI/ML,Latin America,2023,38.19,9.11,4125,8610,5.98,3.8,1.75
+CloudSys,Services,Latin America,2022,44.79,15.67,2666,8392,13.2,3.2,5.73
+FutureTech,Services,Middle East,2020,55.13,22.05,2903,1184,13.72,3.1,2.83
+InnoVate,Software,Middle East,2023,59.34,7.21,3996,5216,9.07,4.8,2.97
+BetaWave,Cloud,Europe,2020,230.26,14.96,3809,5169,10.33,3.9,1.37
+AlphaAI,Cloud,North America,2021,22.33,23.31,819,5744,15.2,3.6,3.15
+InnoVate,AI/ML,Latin America,2020,69.4,19.04,4679,6186,17.1,4.0,10.92
+InnoVate,Software,Europe,2021,40.9,25.48,1072,5535,5.58,3.6,2.33
+CloudSys,Services,North America,2022,47.95,10.45,3818,4214,14.19,4.0,6.94
+NextGen,Cloud,Asia Pacific,2021,78.22,0.35,4502,2396,21.07,4.7,5.97
+BetaWave,Software,Middle East,2021,73.95,16.61,4652,5089,11.3,4.2,10.96
+DataInc,Cloud,North America,2024,266.97,17.9,2307,4947,5.52,4.4,1.71
+InnoVate,Cloud,Asia Pacific,2023,31.87,25.95,4526,8302,5.24,3.7,19.99
+NextGen,Services,North America,2023,30.5,24.51,4420,5091,11.04,,5.37
+DataInc,Hardware,Middle East,2022,84.43,19.29,3130,3951,18.22,4.3,27.99
+BetaWave,AI/ML,Middle East,2022,63.18,21.12,3675,1387,11.76,3.2,13.12
+TechCorp,AI/ML,Europe,2023,41.019999999999996,13.47,3216,1234,13.14,4.1,2.25
+MegaCorp,Services,Latin America,2024,34.14,5.25,3385,4476,6.02,3.5,1.29
+NextGen,Cloud,North America,2023,29.48,15.94,743,1601,17.9,4.6,2.48
+SkyNet,Software,North America,2024,142.31,22.86,4811,1679,5.13,3.9,4.75
+TechCorp,Cloud,Asia Pacific,2022,30.65,20.25,294,9569,8.97,5.0,1.94
+MegaCorp,Services,Middle East,2020,29.53,21.67,4096,1576,15.78,3.2,1.92
+CloudSys,AI/ML,North America,2022,32.85,11.58,588,9915,-0.24,4.6,4.11
+FutureTech,Cloud,Middle East,2022,41.92,12.88,2304,1411,13.04,4.3,1.17
+AlphaAI,AI/ML,North America,2021,18.6,18.87,2757,9815,5.77,4.5,1.65
+SkyNet,Software,Europe,2021,51.6,,3376,4420,12.1,3.6,3.69
+CloudSys,AI/ML,Latin America,2021,18.5,10.87,1202,5333,9.89,4.0,1.33
+BetaWave,AI/ML,North America,2021,95.56,17.38,1341,7660,24.64,4.6,3.53
+CloudSys,Hardware,Middle East,2024,43.31,21.09,615,2043,9.64,3.5,4.21
+FutureTech,Hardware,Europe,2023,63.83,13.4,492,919,23.06,3.5,4.0
+BetaWave,Hardware,North America,2020,116.05,5.69,730,1064,15.52,4.1,11.17
+SkyNet,AI/ML,Asia Pacific,2022,72.62,9.11,3816,652,7.19,4.0,4.78
+FutureTech,Services,Latin America,2024,68.07,16.63,1947,740,13.98,3.6,4.16
+DataInc,AI/ML,North America,2020,29.6,16.53,2755,8735,10.17,3.6,3.64
+AlphaAI,Services,Europe,2024,50.25,16.93,1079,539,13.45,3.6,9.51
+SkyNet,Services,Asia Pacific,2024,85.36,19.17,4629,6914,7.72,4.5,12.27
+DataInc,Hardware,Europe,2022,276.97,15.05,3502,7290,22.14,4.3,10.59
+MegaCorp,Cloud,Europe,2023,79.21,17.12,3971,7836,17.55,4.7,6.6
+SkyNet,Software,Asia Pacific,2021,55.8,14.64,377,8074,12.19,5.0,1.74
+MegaCorp,Hardware,Europe,2023,90.59,24.19,332,344,22.37,3.9,2.62
+BetaWave,Hardware,Asia Pacific,2022,51.29,26.46,1652,5538,12.45,3.1,1.24
+DataInc,Cloud,North America,2022,23.1,5.49,3370,4077,18.59,3.1,14.36
+AlphaAI,Software,Asia Pacific,2022,61.31,12.96,2509,2962,12.23,3.6,6.41
+FutureTech,AI/ML,Asia Pacific,2020,168.06,15.26,3612,9959,14.36,4.9,7.86
+InnoVate,AI/ML,Latin America,2023,34.64,12.86,125,4794,11.51,4.0,2.87
+CloudSys,Hardware,Asia Pacific,2023,83.56,29.34,560,1923,12.57,3.5,10.34
+TechCorp,Software,Asia Pacific,2024,41.22,16.79,3864,3308,13.02,3.8,2.5
+AlphaAI,Hardware,North America,2024,68.37,8.56,3531,2867,7.98,4.2,1.01
+DataInc,Services,Latin America,2024,35.08,19.77,3583,8686,9.59,4.3,3.36
+InnoVate,Hardware,Middle East,2022,49.93,17.17,2094,3691,10.7,3.3,5.23
+AlphaAI,Hardware,North America,2023,95.56,17.43,590,4508,13.38,5.0,4.26
+DataInc,AI/ML,North America,2022,41.35,29.46,1172,5357,11.82,4.1,10.91
+NextGen,AI/ML,Middle East,2020,64.67,17.81,3273,8983,19.04,3.3,1.56
+NextGen,AI/ML,Asia Pacific,2024,109.35,12.57,315,2091,17.08,4.8,5.04
+MegaCorp,Services,Europe,2022,150.99,-0.64,1823,729,10.82,,4.6
+AlphaAI,AI/ML,Latin America,2022,33.370000000000005,13.68,1692,5788,20.29,4.8,2.65
+NextGen,Software,Europe,2020,35.48,25.45,2706,5718,23.24,5.0,9.64
+DataInc,Cloud,Middle East,2021,23.27,14.27,258,9600,-0.26,4.4,7.99
+MegaCorp,Software,North America,2023,269.53,-2.92,4881,7747,17.59,4.5,7.6
+DataInc,Software,North America,2021,145.87,11.01,3413,8083,7.84,3.7,11.45
+MegaCorp,AI/ML,Latin America,2024,68.82,22.94,2941,112,16.8,4.9,7.41
+AlphaAI,Cloud,North America,2022,112.27,19.37,1876,7879,19.43,4.1,2.32
+InnoVate,Cloud,North America,2020,46.8,8.28,2152,7402,6.74,4.5,7.11
+FutureTech,Cloud,Latin America,2020,58.85,10.48,2395,6965,0.89,4.8,2.84
+SkyNet,Services,Latin America,2023,29.67,11.71,1796,8376,17.01,5.0,2.39
+InnoVate,AI/ML,Middle East,2021,85.38,9.7,3093,3694,12.81,4.7,1.38
+BetaWave,Cloud,North America,2023,31.83,-1.24,2569,5020,1.99,3.6,7.81
+DataInc,Services,North America,2022,107.45,21.11,2046,8053,27.18,4.9,7.21
+BetaWave,Hardware,Middle East,2023,101.17,25.06,3909,3328,15.75,4.3,2.34
+InnoVate,Hardware,Asia Pacific,2020,71.68,2.85,2883,7346,16.02,4.9,7.92
+MegaCorp,Services,Asia Pacific,2020,11.84,24.95,3744,9064,20.19,4.4,13.5
+SkyNet,Services,Asia Pacific,2024,48.06,14.18,2600,3124,8.52,3.6,1.57
+SkyNet,AI/ML,Middle East,2024,45.269999999999996,24.8,3745,8362,12.78,3.7,2.32
+TechCorp,AI/ML,North America,2022,42.33,15.3,2745,7602,4.08,4.1,7.94
+SkyNet,Hardware,Middle East,2021,19.59,16.08,2449,1687,8.35,4.6,2.6
+FutureTech,Cloud,Middle East,2023,163.2,17.98,2032,5153,14.31,3.6,5.9
+SkyNet,Hardware,Asia Pacific,2022,60.35,8.68,3394,9166,2.01,4.2,1.42
+InnoVate,Cloud,Europe,2024,48.230000000000004,24.56,1857,694,8.18,3.7,4.01
+TechCorp,Cloud,North America,2023,50.29,6.03,1216,2082,6.43,4.6,7.72
+InnoVate,AI/ML,Asia Pacific,2024,59.64,11.78,2667,2811,12.85,3.9,6.8
+InnoVate,Software,Europe,2023,70.89,19.19,3599,2118,15.45,3.2,9.44
+CloudSys,Software,Europe,2021,51.25,10.93,592,291,16.45,3.3,11.5
+TechCorp,Services,Latin America,2022,145.91,21.22,3406,2718,17.99,3.1,8.42
+InnoVate,AI/ML,North America,2023,59.35,,719,852,20.23,4.0,6.57
+CloudSys,Cloud,Europe,2020,252.41,23.1,3332,5109,15.64,3.2,1.16
+CloudSys,Software,Asia Pacific,2020,105.33,,3923,245,23.32,3.2,4.83
+TechCorp,Cloud,Latin America,2023,36.69,16.01,2480,2237,12.72,4.9,1.19
+BetaWave,Software,North America,2023,158.39,23.23,1646,2380,10.96,4.7,9.25
+MegaCorp,Software,Middle East,2023,31.19,4.47,3663,4891,15.64,3.9,2.93
+FutureTech,Software,Asia Pacific,2020,95.04,20.79,1705,3656,10.7,5.0,5.13
+MegaCorp,AI/ML,Europe,2020,33.95,20.34,3852,8518,23.12,3.0,2.64
+SkyNet,Hardware,Europe,2023,130.18,5.3,4775,110,18.79,4.2,8.63
+FutureTech,Cloud,Asia Pacific,2024,131.26999999999998,21.67,1990,3977,16.5,4.2,11.88
+SkyNet,AI/ML,Europe,2024,111.98,17.18,1375,6346,12.79,3.9,3.54
+InnoVate,AI/ML,Latin America,2021,93.04,20.2,2843,2641,9.56,3.8,10.94
+DataInc,AI/ML,North America,2022,38.17,7.27,2593,8808,16.21,3.9,2.55
+TechCorp,AI/ML,Latin America,2024,34.22,16.2,456,9813,5.24,3.8,4.82
+FutureTech,AI/ML,Europe,2020,35.79,1.36,969,6171,21.21,4.5,10.79
+FutureTech,Services,Middle East,2024,39.53,-3.22,985,1250,10.93,3.3,2.97
+InnoVate,Cloud,North America,2021,74.36,16.13,2101,2904,13.83,3.4,16.4
+BetaWave,AI/ML,North America,2021,36.239999999999995,23.8,1383,7074,6.54,3.4,1.65
+CloudSys,Cloud,Asia Pacific,2022,205.68,17.02,719,9478,16.34,3.5,1.09
+InnoVate,Services,Asia Pacific,2024,81.22,14.49,982,7022,9.28,4.1,12.72
+NextGen,Services,Middle East,2020,96.43,13.5,896,186,15.9,3.2,1.36
+CloudSys,Cloud,North America,2020,17.11,7.46,3742,1079,16.54,4.7,25.07
+TechCorp,Software,Middle East,2023,124.03,13.23,3525,2644,8.11,3.6,16.12
+CloudSys,Hardware,Asia Pacific,2020,138.04,18.37,1396,7256,5.26,3.3,1.74
+BetaWave,Software,Asia Pacific,2022,53.38,,4814,711,21.19,4.4,4.86
+CloudSys,Software,North America,2022,66.6,21.0,344,2522,10.85,3.1,2.02
+TechCorp,Software,Latin America,2020,82.37,16.57,2995,136,13.35,4.2,3.79
+BetaWave,AI/ML,Europe,2020,19.61,17.54,1029,6269,14.91,4.4,1.32
+MegaCorp,Services,Asia Pacific,2023,59.91,22.11,619,8193,4.48,3.4,2.27
+FutureTech,Software,Asia Pacific,2020,35.43,10.79,3312,7018,14.78,3.1,3.26
+FutureTech,Services,Latin America,2023,32.91,20.28,2509,2823,12.59,3.7,3.89
+SkyNet,Cloud,Latin America,2023,47.91,11.91,107,1750,8.14,3.2,19.97
+MegaCorp,Hardware,Middle East,2020,13.53,17.72,2625,2750,5.06,3.2,9.25
+MegaCorp,Cloud,Middle East,2021,16.310000000000002,9.83,3523,6865,15.64,3.5,7.69
+CloudSys,Cloud,Europe,2021,22.26,7.71,2119,1697,18.77,3.6,4.85
+FutureTech,AI/ML,Europe,2023,190.0,15.73,4690,6088,13.07,4.1,10.16
+TechCorp,Hardware,North America,2020,49.87,-0.08,4382,5214,3.39,4.4,3.07
+AlphaAI,Cloud,Middle East,2021,183.81,12.63,3767,5570,5.66,4.2,7.17
+AlphaAI,Cloud,Asia Pacific,2020,38.33,2.15,3771,3737,9.41,3.3,26.4
+BetaWave,Hardware,Middle East,2020,28.68,21.23,2901,646,21.39,3.3,2.89
+FutureTech,Hardware,Asia Pacific,2020,45.28,23.4,185,4595,10.52,4.8,6.6
+FutureTech,Cloud,Latin America,2024,58.95,8.09,3215,8726,9.19,4.1,10.3
+AlphaAI,Hardware,Middle East,2020,15.58,,4332,8887,1.96,4.7,13.37
+FutureTech,Cloud,Latin America,2024,81.2,22.19,2568,4807,8.06,3.7,7.33
+CloudSys,Cloud,Europe,2023,37.17,22.22,3719,4434,4.6,4.2,2.67
+NextGen,AI/ML,Europe,2021,63.33,16.72,1736,8962,5.98,4.0,2.97
+DataInc,Software,North America,2021,67.52000000000001,20.87,3683,4783,12.72,3.6,1.1
+MegaCorp,Cloud,Middle East,2021,23.25,9.81,4109,7131,9.59,3.9,8.15
+SkyNet,Services,Latin America,2021,18.17,15.66,3426,8740,22.2,4.0,1.22
+BetaWave,Software,Asia Pacific,2021,90.88,11.26,2318,7167,18.47,3.4,11.0
+NextGen,Software,Europe,2021,45.79,9.13,2317,4779,8.35,3.6,1.63
+AlphaAI,Software,Europe,2021,18.0,15.29,2469,1723,6.5,4.6,1.94
+MegaCorp,AI/ML,Asia Pacific,2023,288.6,17.78,3738,8356,20.3,4.8,4.24
+FutureTech,Cloud,Latin America,2020,12.98,24.31,2603,9978,21.96,3.7,7.69
+SkyNet,AI/ML,Latin America,2022,79.38,17.12,1043,7228,-1.17,3.6,1.75
+FutureTech,Cloud,Middle East,2024,235.76,20.14,2937,2344,12.56,3.4,3.9
+TechCorp,AI/ML,Middle East,2022,33.67,20.23,2760,3680,10.49,4.4,4.3
+TechCorp,AI/ML,North America,2022,27.67,36.5,3036,196,15.89,3.6,2.19
+SkyNet,Services,Europe,2020,16.47,0.52,4544,3503,23.66,5.0,1.61
+SkyNet,AI/ML,Middle East,2020,28.07,9.5,4047,4557,9.1,3.7,10.05
+AlphaAI,Hardware,Latin America,2020,15.33,26.79,1776,5833,-0.36,3.8,4.49
+SkyNet,Services,Asia Pacific,2021,73.91,12.18,1296,7801,15.47,4.2,1.07
+CloudSys,AI/ML,Latin America,2023,28.22,22.09,4205,5678,20.34,4.6,9.12
+FutureTech,Software,Europe,2021,50.61,16.84,2887,8378,10.18,3.9,20.76
+NextGen,Hardware,Latin America,2023,310.64,31.84,1561,3410,7.77,3.8,5.66
+InnoVate,Hardware,North America,2023,109.09,6.1,3418,3055,9.38,5.0,4.5
+SkyNet,Hardware,Europe,2022,67.75,24.77,766,3602,17.1,3.0,11.54
+BetaWave,Services,Asia Pacific,2022,38.28,29.0,2276,68,9.27,4.8,16.24
+TechCorp,AI/ML,North America,2023,73.89,6.88,3843,2292,13.97,3.3,8.02
+CloudSys,AI/ML,Europe,2023,62.44,21.26,700,6368,12.17,,3.95
+MegaCorp,Software,Asia Pacific,2021,42.76,7.28,2752,5147,11.55,4.2,5.49
+InnoVate,Software,North America,2021,22.0,15.24,4522,8690,16.21,3.7,7.04
+NextGen,Hardware,North America,2022,128.84,12.95,3924,1998,9.13,4.7,2.08
+InnoVate,Software,Europe,2020,39.87,-4.22,4006,9187,9.42,3.0,3.96
+SkyNet,Services,Middle East,2023,35.82,18.39,1079,5668,16.79,3.5,9.85
+AlphaAI,AI/ML,North America,2021,37.92,16.15,2551,4286,6.08,4.1,6.32
+TechCorp,Hardware,North America,2022,46.73,26.83,728,6951,6.72,3.7,3.65
+TechCorp,Software,Asia Pacific,2021,102.88,19.89,1729,1970,4.44,4.2,6.44
+MegaCorp,Services,Latin America,2023,91.14,33.33,3796,4238,17.09,3.0,1.63
+AlphaAI,Services,Europe,2023,98.33,15.86,3530,288,11.37,3.2,3.57
+FutureTech,Software,Europe,2024,30.55,14.16,3774,254,4.12,3.3,8.88
+DataInc,AI/ML,Middle East,2020,36.91,13.53,4029,5602,17.12,3.4,2.25
+CloudSys,Software,Middle East,2024,62.83,11.48,2865,4977,8.67,3.9,2.03
+TechCorp,Hardware,Europe,2022,20.97,-2.66,4469,4440,6.77,4.5,16.06
+BetaWave,Software,Middle East,2021,30.04,13.24,4880,2737,10.83,4.8,2.18
+TechCorp,Services,Asia Pacific,2022,91.42,-1.54,215,5001,20.87,4.7,2.51
+InnoVate,Software,Europe,2023,32.370000000000005,18.62,2103,6210,9.63,3.4,18.47
+TechCorp,AI/ML,Middle East,2024,68.32,5.08,792,5438,15.45,3.9,7.63
+TechCorp,Cloud,Europe,2024,42.120000000000005,7.85,3262,9590,16.36,3.4,7.01
+DataInc,Software,Latin America,2024,30.61,9.64,1205,5176,14.66,3.5,10.58
+DataInc,AI/ML,North America,2022,33.8,13.36,3108,866,19.63,4.0,1.62
+NextGen,AI/ML,Europe,2023,211.22,15.05,2261,9062,7.76,3.1,7.12
+FutureTech,Services,North America,2021,95.86,23.68,253,242,5.74,3.4,4.5
+BetaWave,AI/ML,Middle East,2021,175.42,10.38,3799,1826,5.62,4.9,9.83
+TechCorp,AI/ML,North America,2022,53.46,18.84,4510,3695,11.13,3.9,4.55
+TechCorp,AI/ML,Europe,2024,35.81,36.85,3886,6364,6.32,3.9,5.84
+CloudSys,AI/ML,Latin America,2020,49.7,18.02,1164,8492,12.89,3.0,4.25
+DataInc,Hardware,Middle East,2022,50.29,13.56,4300,1838,12.46,3.5,4.25
+BetaWave,Hardware,Europe,2022,113.01,8.77,2013,7424,18.11,4.7,8.3
+MegaCorp,Services,Middle East,2023,30.16,13.45,1316,3750,13.75,3.3,5.95
+NextGen,Software,Asia Pacific,2021,48.5,7.91,2501,9409,9.5,3.8,6.02
+FutureTech,AI/ML,North America,2022,28.13,17.15,1872,3943,14.47,3.0,3.99
+AlphaAI,Software,Asia Pacific,2022,39.629999999999995,15.83,2060,6861,5.82,4.0,4.79
+FutureTech,Software,Europe,2024,96.85,-2.3,2880,9338,11.77,,7.85
+InnoVate,Services,Latin America,2024,62.31,14.85,4904,2729,13.92,4.6,9.74
+TechCorp,AI/ML,Middle East,2020,33.57,23.61,4846,3954,12.78,4.6,6.96
+NextGen,AI/ML,North America,2023,50.08,11.81,2971,7310,14.49,4.6,13.89
+InnoVate,Cloud,Middle East,2020,40.76,9.78,760,554,8.14,3.6,9.58
+BetaWave,Software,Europe,2024,106.86,3.98,2735,9863,18.91,4.7,5.13
+AlphaAI,Software,Middle East,2021,126.32,0.14,2429,9629,22.93,4.1,6.56
+DataInc,Hardware,North America,2024,185.43,21.65,4054,6823,2.38,3.7,14.04
+NextGen,Cloud,Europe,2023,102.3,13.55,2550,3866,4.71,4.3,5.83
+NextGen,Hardware,Middle East,2024,48.95,21.18,1232,767,12.26,3.0,9.71
+TechCorp,Hardware,Latin America,2023,83.26,27.25,799,4484,10.46,3.3,6.84
+SkyNet,Hardware,Europe,2023,53.78,22.37,2138,708,23.38,4.5,5.01
+NextGen,Services,Europe,2023,39.7,10.66,4747,5107,13.32,3.5,2.38
+CloudSys,Services,Latin America,2023,116.9,16.16,4600,4058,20.36,4.2,3.78
+AlphaAI,Hardware,Asia Pacific,2023,26.96,10.08,4657,5044,-0.29,3.8,18.17
+AlphaAI,Cloud,North America,2021,131.01999999999998,9.33,2279,4284,16.89,4.7,6.36
+CloudSys,Software,Asia Pacific,2020,40.95,17.74,2938,3814,7.71,4.9,5.16
+MegaCorp,Cloud,Middle East,2022,70.7,8.34,973,4687,7.61,4.8,14.51
+CloudSys,AI/ML,Latin America,2020,63.85,-2.67,183,2154,10.51,3.5,5.42
+CloudSys,Services,Asia Pacific,2023,137.75,7.89,1522,9497,3.45,3.4,4.73
+AlphaAI,Software,Europe,2021,65.62,12.54,2775,6851,14.66,3.9,8.12
+FutureTech,Software,Middle East,2024,77.59,27.17,3280,8625,13.14,3.0,7.24
+AlphaAI,AI/ML,Middle East,2021,18.45,11.07,4416,2657,13.6,3.1,2.07
+SkyNet,AI/ML,Asia Pacific,2023,61.53,19.1,4075,8435,17.32,4.1,4.19
+TechCorp,Hardware,Asia Pacific,2021,23.14,13.65,1491,3769,21.09,4.0,4.2
+InnoVate,Services,Latin America,2021,81.86,24.81,3318,2631,9.82,5.0,3.38
+FutureTech,Services,North America,2023,60.89,24.26,4307,2615,14.86,3.4,4.64
+DataInc,Cloud,Asia Pacific,2021,72.01,24.41,714,2813,13.76,3.5,3.66
+InnoVate,Hardware,Asia Pacific,2022,22.130000000000003,1.13,3071,6378,14.27,3.2,2.11
+TechCorp,Hardware,Europe,2022,24.43,16.65,3665,6041,14.36,4.8,3.66
+SkyNet,Hardware,Middle East,2021,78.0,21.07,3676,3456,21.54,4.6,1.38
+SkyNet,Hardware,North America,2024,33.74,18.05,4670,8973,9.24,4.6,5.29
+DataInc,Services,Europe,2023,28.7,,370,4830,2.85,4.8,10.61
+FutureTech,Services,Latin America,2022,20.61,15.47,4166,4227,7.81,4.0,7.46
+MegaCorp,Hardware,Latin America,2024,186.75,9.04,2568,6526,16.54,3.9,3.23
+CloudSys,Cloud,Asia Pacific,2021,81.88,1.42,1490,2654,12.14,3.7,1.46
+FutureTech,Software,Asia Pacific,2024,51.79,9.84,3454,8231,9.19,4.2,2.13
+MegaCorp,Software,Latin America,2020,27.59,36.42,4235,2432,5.54,3.9,4.94
+SkyNet,Cloud,Asia Pacific,2022,41.519999999999996,11.11,3707,581,13.33,3.9,2.16
+AlphaAI,Hardware,North America,2021,89.51,-0.68,2683,6129,15.87,4.9,4.93
+TechCorp,Services,Asia Pacific,2023,79.14,20.86,4173,684,13.84,5.0,2.32
+DataInc,Software,Middle East,2021,25.24,21.84,3175,52,10.48,4.6,10.45
+TechCorp,AI/ML,Asia Pacific,2023,34.56,25.3,4006,8447,12.88,4.5,3.53
+BetaWave,AI/ML,Europe,2021,20.18,18.77,389,6001,12.85,4.4,2.41
+BetaWave,Cloud,North America,2024,83.99000000000001,21.76,2580,5676,13.14,3.3,9.37
+FutureTech,Hardware,Europe,2024,102.28,29.72,3352,7789,4.89,3.1,3.1
+SkyNet,Software,Europe,2024,45.4,9.04,378,6053,13.18,4.4,1.59
+SkyNet,Hardware,Middle East,2020,11.06,7.45,3024,2940,9.36,4.5,5.22
+CloudSys,Software,North America,2023,29.29,6.24,680,6289,18.24,,5.36
+CloudSys,Cloud,North America,2024,201.88,12.87,353,8076,12.8,4.9,7.27
+CloudSys,Cloud,North America,2020,27.51,26.47,4376,3356,17.01,3.2,2.37
+AlphaAI,AI/ML,North America,2023,98.32,19.22,4876,947,10.19,3.6,3.93
+InnoVate,Hardware,North America,2021,64.0,18.91,924,9327,10.41,4.3,2.66
+NextGen,AI/ML,Middle East,2020,34.06,0.45,3932,9521,20.97,3.3,1.42
+InnoVate,Hardware,Asia Pacific,2022,31.51,9.45,799,720,14.62,3.1,11.46
+TechCorp,AI/ML,Europe,2020,16.47,0.31,1480,7341,7.71,3.7,7.53
+InnoVate,Services,North America,2020,57.73,24.37,3996,1555,17.38,4.5,2.79
+AlphaAI,Services,Asia Pacific,2023,99.5,27.69,1773,6510,8.8,3.8,5.57
+TechCorp,Services,Asia Pacific,2021,66.63,21.24,2827,5217,13.35,4.3,2.12
+InnoVate,Services,Europe,2022,57.78,7.11,3256,5305,23.02,4.2,12.05
+AlphaAI,Software,Middle East,2024,32.14,,3488,299,3.41,3.0,1.61
+NextGen,Services,Latin America,2024,202.87,12.97,4407,6507,10.95,5.0,1.02
+InnoVate,Cloud,Latin America,2020,90.15,5.28,483,1942,14.45,3.1,4.49
+AlphaAI,Cloud,Asia Pacific,2023,42.32,7.28,441,3489,16.59,4.9,5.37
+CloudSys,Software,Europe,2023,220.53,11.56,2087,2904,4.55,4.1,5.33
+SkyNet,Services,Latin America,2024,76.05,15.4,4159,9745,2.79,4.9,1.28
+CloudSys,Services,Asia Pacific,2022,63.66,13.71,3209,3842,18.54,3.2,2.88
+SkyNet,Services,Middle East,2021,83.93,3.7,4182,5380,7.68,4.0,4.46
+DataInc,AI/ML,Latin America,2022,103.5,24.71,4615,7921,7.43,3.3,2.22
+DataInc,Hardware,Asia Pacific,2021,68.43,13.8,2898,8285,21.3,3.1,11.3
+DataInc,AI/ML,Asia Pacific,2024,36.85,9.29,3340,3662,12.42,4.2,1.46
+NextGen,Hardware,North America,2021,35.64,23.88,2088,2668,12.46,3.4,4.34
+CloudSys,Services,Middle East,2023,156.61,5.53,3514,4728,10.92,4.2,6.88
+SkyNet,Services,North America,2020,22.72,1.97,1949,3213,4.66,3.2,2.52
+AlphaAI,AI/ML,Europe,2020,33.27,25.18,405,9530,16.05,3.7,5.89
+TechCorp,AI/ML,North America,2024,58.29,30.13,3713,2992,14.46,4.6,9.84
+AlphaAI,Hardware,North America,2023,53.94,11.3,2849,8461,13.01,3.9,2.06
+TechCorp,Cloud,Latin America,2022,67.46000000000001,14.63,1235,1975,11.3,4.3,13.46
+BetaWave,Hardware,Asia Pacific,2023,168.3,5.83,305,3022,10.25,4.3,5.03
+AlphaAI,AI/ML,Middle East,2020,23.77,15.04,4691,1040,17.47,4.7,2.78
+InnoVate,AI/ML,North America,2020,16.48,11.19,3550,1862,11.15,3.6,3.82
+InnoVate,Software,Middle East,2023,36.0,14.18,3911,9045,11.62,4.4,2.87
+FutureTech,AI/ML,North America,2023,133.99,18.27,3722,539,15.18,4.9,7.46
+CloudSys,Software,Europe,2020,61.9,6.21,3699,5926,13.25,,8.96
+TechCorp,Cloud,North America,2022,36.84,12.11,2651,9735,21.85,4.0,9.95
+TechCorp,Hardware,Latin America,2024,114.63,0.57,4408,3695,1.43,4.3,22.26
+CloudSys,Hardware,Asia Pacific,2024,128.8,12.16,409,7131,13.8,4.5,8.83
+NextGen,Software,Europe,2023,118.71,14.25,2808,2941,7.77,4.2,5.6
+FutureTech,Hardware,North America,2024,155.62,16.83,2091,9947,6.35,3.0,3.07
+NextGen,AI/ML,Middle East,2020,24.53,16.92,371,3566,9.26,3.4,4.93
+NextGen,Services,Europe,2020,80.33,22.23,3742,3390,12.33,4.6,1.21
+NextGen,Software,Europe,2023,55.86,2.68,4186,6460,12.59,3.5,7.83
+CloudSys,Hardware,North America,2023,117.26,3.11,1922,103,2.9,4.5,3.95
+NextGen,Software,Europe,2023,90.19,19.23,3373,2625,8.75,3.7,1.1
+InnoVate,Software,Middle East,2022,94.91,-1.31,4638,665,13.69,4.0,1.32
+DataInc,Services,Europe,2024,83.38,16.47,4449,5994,6.74,3.1,3.45
+BetaWave,AI/ML,Middle East,2023,34.769999999999996,5.56,620,7454,5.31,3.4,5.38
+TechCorp,Software,North America,2021,54.38,27.58,1076,1004,-1.54,4.9,4.12
+TechCorp,Hardware,Asia Pacific,2021,223.9,17.0,3822,1679,8.02,4.8,5.83
+BetaWave,Cloud,Europe,2020,148.54,,3651,6909,5.1,4.3,4.27
+CloudSys,Software,Asia Pacific,2024,32.21,24.82,4205,8891,6.1,3.9,6.42
+AlphaAI,Software,Middle East,2023,34.010000000000005,6.49,2873,3328,10.37,4.4,2.24
+CloudSys,Services,Europe,2021,22.06,8.01,2652,5505,8.4,4.2,1.6
+TechCorp,AI/ML,Latin America,2024,94.73,4.91,2932,3851,5.0,4.1,5.54
+TechCorp,Cloud,Asia Pacific,2020,95.13,8.08,4007,2611,-0.7,3.1,4.31
+BetaWave,Hardware,Europe,2022,32.010000000000005,15.49,252,6589,13.81,4.3,1.14
+NextGen,Cloud,Asia Pacific,2024,65.25,18.95,3064,420,16.52,4.5,3.39
+CloudSys,Hardware,Europe,2024,121.85,22.69,3016,907,9.62,5.0,1.56
+SkyNet,AI/ML,North America,2022,85.99,0.4,2900,4936,10.41,3.0,4.79
+BetaWave,Hardware,Asia Pacific,2024,69.07,13.63,1852,7535,12.02,4.5,3.52
+InnoVate,Services,Latin America,2020,54.62,6.13,2710,433,21.47,4.1,5.75
+TechCorp,Services,Latin America,2020,45.5,,3975,4384,2.59,3.9,9.19
+BetaWave,Services,Middle East,2022,37.66,33.67,1204,4340,9.51,3.3,2.78
+CloudSys,Services,Europe,2023,66.62,17.33,2636,2775,1.67,3.8,17.36
+TechCorp,Cloud,Asia Pacific,2021,73.38,22.2,4299,6254,14.17,3.7,4.84
+AlphaAI,AI/ML,Middle East,2023,128.31,30.69,3954,6161,11.14,3.6,5.82
+BetaWave,Hardware,Asia Pacific,2024,80.57,24.02,3594,4301,13.22,4.5,6.71
+FutureTech,Hardware,Europe,2021,86.59,11.42,2014,972,12.92,4.4,6.49
+TechCorp,Services,Latin America,2022,28.72,4.79,3172,2965,17.94,4.2,4.58
+CloudSys,Services,North America,2022,50.95,14.76,1106,8007,15.23,4.9,3.8
+DataInc,Software,Latin America,2021,15.47,10.46,506,3096,16.98,3.7,1.28
+SkyNet,AI/ML,Middle East,2020,24.16,2.8,266,9216,5.61,3.5,1.11
+MegaCorp,Cloud,North America,2021,79.82,16.93,608,1280,19.16,4.3,3.22
+NextGen,Hardware,Middle East,2024,270.24,17.13,1761,7697,7.67,3.4,3.03
+MegaCorp,Software,Europe,2020,15.22,29.15,3764,4983,8.01,3.6,3.45
+CloudSys,Software,North America,2022,45.67,12.11,3589,9605,13.63,3.4,1.74
+InnoVate,Hardware,Middle East,2021,95.49,17.24,4958,3990,13.81,3.1,7.7
+InnoVate,Cloud,Europe,2023,36.41,9.68,780,6533,5.57,,10.72
+DataInc,Software,Latin America,2023,65.49000000000001,21.99,2624,253,10.96,3.5,14.96
+NextGen,Software,Europe,2024,96.04,14.0,2220,210,20.93,3.9,4.39
+FutureTech,AI/ML,Asia Pacific,2023,72.85,5.62,4777,9010,3.19,3.1,7.03
+DataInc,Cloud,Europe,2021,25.41,14.89,4457,3798,20.91,4.4,10.67
+MegaCorp,Software,Europe,2021,36.96,18.12,1463,6768,10.55,3.7,3.71
+DataInc,Cloud,Asia Pacific,2023,101.58,17.04,1431,2631,-2.03,4.5,2.85
+MegaCorp,Hardware,Middle East,2021,55.4,23.37,2392,1143,3.8,3.8,14.8
+TechCorp,Services,Middle East,2024,30.259999999999998,3.42,1638,4550,6.22,3.4,4.63
+InnoVate,Software,Europe,2020,81.56,8.26,3508,8849,8.26,4.0,4.44
+TechCorp,AI/ML,Asia Pacific,2024,31.8,20.12,660,5760,11.37,3.3,1.98
+SkyNet,Hardware,Asia Pacific,2024,98.47,9.2,1199,9782,-4.22,3.9,1.57
+NextGen,Cloud,Latin America,2021,26.31,16.92,2003,2925,13.12,3.6,10.23
+FutureTech,Hardware,Middle East,2020,168.59,-4.36,274,3241,5.67,4.8,5.76
+MegaCorp,Software,North America,2021,37.94,36.73,2256,1887,20.34,3.1,2.97
+FutureTech,Cloud,Middle East,2022,39.8,12.84,2330,739,10.38,4.4,2.06
+MegaCorp,Services,Middle East,2021,23.06,24.55,4387,3809,17.66,3.4,5.05
+CloudSys,Hardware,Latin America,2021,33.239999999999995,12.3,4260,2153,18.66,3.6,5.38
+DataInc,Software,North America,2021,119.64,18.32,4020,415,18.5,3.8,2.16
+SkyNet,AI/ML,Latin America,2020,290.44,26.94,1597,8142,8.6,4.8,10.53
+InnoVate,Cloud,North America,2021,37.97,24.33,3954,4222,8.52,3.5,1.44
+MegaCorp,Hardware,Europe,2020,39.77,13.36,3271,6083,10.65,3.2,3.2
+FutureTech,Hardware,North America,2023,89.02,13.92,1667,2428,15.82,3.6,6.7
+SkyNet,Services,Latin America,2022,128.66,23.03,1251,1255,8.94,3.2,2.6
+AlphaAI,Services,Middle East,2020,54.95,33.67,468,5038,11.28,3.3,9.79
+AlphaAI,AI/ML,North America,2023,49.84,16.54,142,5719,13.64,4.1,7.73
+TechCorp,AI/ML,North America,2020,36.6,30.66,2007,2785,6.57,3.1,8.78
+InnoVate,Software,Asia Pacific,2020,69.47,13.07,3590,9917,6.19,3.1,1.63
+CloudSys,Software,Middle East,2022,20.16,22.62,2635,8540,11.05,4.4,1.76
+FutureTech,AI/ML,Europe,2024,78.33,23.81,4273,1006,11.85,3.7,2.69
+DataInc,AI/ML,Latin America,2024,51.96,11.72,2973,9356,14.6,3.3,4.65
+DataInc,Cloud,Europe,2020,89.04,9.02,1924,6673,16.03,3.5,7.89
+FutureTech,Services,Middle East,2021,19.880000000000003,24.16,1393,1524,5.41,4.3,10.06
+NextGen,Software,North America,2023,69.36,10.75,4869,4510,7.13,,7.09
+CloudSys,Services,North America,2021,47.79,7.85,4896,7052,6.18,4.0,14.2
+SkyNet,Services,Middle East,2021,66.41,9.53,4954,6446,20.47,3.2,7.71
+MegaCorp,AI/ML,North America,2020,13.35,,3486,2878,11.28,4.2,2.83
+NextGen,Cloud,North America,2020,53.37,21.85,3072,2900,12.1,3.6,2.54
+MegaCorp,Hardware,North America,2020,51.22,19.12,4022,3014,12.35,4.3,6.96
+MegaCorp,Cloud,Latin America,2020,51.12,20.73,1092,4644,7.71,4.6,2.07
+NextGen,Cloud,Latin America,2024,76.25,18.37,2486,9191,21.39,4.2,1.49
+TechCorp,Services,Asia Pacific,2020,66.42,10.25,2340,6694,14.47,3.6,4.8
+AlphaAI,Cloud,Europe,2024,111.73,20.58,1576,2900,12.24,3.5,9.62
+MegaCorp,Software,Middle East,2024,45.72,24.46,3507,215,5.37,3.7,1.53
+NextGen,Services,Middle East,2020,97.16,19.68,489,969,5.03,3.3,8.85
+NextGen,Software,Middle East,2022,54.48,18.6,1099,8355,10.15,3.4,9.35
+BetaWave,Hardware,Asia Pacific,2023,29.009999999999998,8.86,4720,3554,7.8,4.6,4.29
+TechCorp,Services,Latin America,2021,18.02,16.69,1955,1041,5.6,3.8,1.3
+InnoVate,Hardware,Asia Pacific,2024,50.34,8.44,758,6097,9.77,3.9,1.96
+BetaWave,Services,Middle East,2023,101.83,14.81,2863,3889,10.7,4.2,7.15
+BetaWave,AI/ML,Europe,2022,81.5,1.88,3763,1308,12.85,4.2,7.22
+FutureTech,Cloud,North America,2021,92.7,1.94,1581,7659,8.98,3.1,12.43
+AlphaAI,AI/ML,Latin America,2021,51.41,13.47,3831,8756,5.95,4.7,5.37
+NextGen,Hardware,Latin America,2024,59.01,10.61,551,4854,6.16,3.4,1.66
+AlphaAI,Cloud,Asia Pacific,2020,17.98,15.85,2575,117,19.28,4.4,1.65
+CloudSys,Services,Latin America,2022,39.89,13.92,3322,9838,4.49,4.5,7.39
+FutureTech,Cloud,Middle East,2024,58.46,15.24,1637,5710,14.18,4.4,2.02
+InnoVate,Software,Middle East,2022,24.64,19.87,3193,4528,15.12,4.2,2.99
+AlphaAI,Cloud,Asia Pacific,2020,22.46,11.29,982,8260,11.27,3.0,4.34
+DataInc,Software,Middle East,2020,55.59,13.24,4508,3571,22.61,3.7,1.13
+MegaCorp,Cloud,Europe,2024,96.53,26.64,4168,622,15.01,4.2,2.43
+CloudSys,Software,Asia Pacific,2020,330.27,15.02,2666,7132,23.06,3.8,3.62
+TechCorp,Hardware,Europe,2023,160.24,,3377,7882,8.09,4.7,2.64
+InnoVate,AI/ML,North America,2021,66.44,15.66,474,5445,8.2,3.6,1.73
+CloudSys,Services,Europe,2024,57.34,13.71,4646,2308,15.17,3.6,7.51
+MegaCorp,Cloud,North America,2022,70.55,9.32,3797,6089,10.43,3.5,9.39
+FutureTech,AI/ML,North America,2023,102.01,,3162,700,22.11,3.7,2.49
+MegaCorp,Services,Europe,2024,36.3,8.89,4790,5791,14.05,4.1,8.45
+BetaWave,Services,Asia Pacific,2020,36.37,21.98,3350,6888,5.73,4.4,3.44
+MegaCorp,Software,Middle East,2020,101.57,9.96,4695,2637,1.58,4.3,4.53
+BetaWave,Hardware,Middle East,2020,34.21,13.76,4659,7926,11.53,4.6,10.69
+FutureTech,Hardware,North America,2020,52.42,20.61,212,3312,11.47,,7.93
+SkyNet,AI/ML,North America,2022,64.31,12.77,3297,1388,13.88,4.6,9.18
+BetaWave,Hardware,Asia Pacific,2023,35.2,20.07,2478,5046,19.26,3.0,1.74
+TechCorp,Cloud,Latin America,2021,37.49,2.67,2024,5830,18.47,4.5,1.36
+MegaCorp,Hardware,Europe,2022,40.36,13.94,239,2877,8.53,3.4,12.19
+MegaCorp,AI/ML,North America,2022,21.33,15.63,1524,5282,4.24,3.3,3.45
+TechCorp,Hardware,Middle East,2021,16.22,15.19,3049,2267,4.6,4.3,2.7
+DataInc,Cloud,Asia Pacific,2021,104.1,1.78,3268,3589,7.58,3.6,7.45
+NextGen,Software,Europe,2020,25.95,,616,7895,9.8,3.1,10.05
+SkyNet,AI/ML,Asia Pacific,2022,56.5,8.16,2716,9279,13.83,3.3,10.92
+InnoVate,Software,Europe,2024,47.739999999999995,17.68,987,4433,7.19,3.0,2.9
+BetaWave,Software,Europe,2021,156.24,15.06,3204,3011,13.68,4.8,10.56
+TechCorp,Software,North America,2021,30.01,23.03,149,3276,14.17,3.0,1.21
+FutureTech,Services,Asia Pacific,2023,53.08,,4051,6887,12.86,3.4,1.25
+BetaWave,Services,Asia Pacific,2024,133.07,4.68,3660,7081,5.23,3.8,5.88
+NextGen,Software,Middle East,2024,122.24,9.81,118,9340,14.81,3.7,1.33
+FutureTech,AI/ML,Middle East,2021,25.3,16.51,4921,9181,24.49,4.8,2.96
+CloudSys,Cloud,North America,2020,91.14,6.16,1573,3766,13.48,3.1,6.59
+MegaCorp,Cloud,North America,2023,55.64,21.26,4161,3464,-5.72,4.0,3.06
+CloudSys,Hardware,Latin America,2024,62.98,21.75,2706,1498,19.45,4.4,1.99
+BetaWave,AI/ML,Middle East,2021,22.16,19.48,551,620,7.78,4.9,2.65
+NextGen,Services,Europe,2024,34.2,,3865,2954,25.59,4.2,4.06
+SkyNet,Software,Asia Pacific,2023,90.09,25.96,2538,2555,12.7,4.6,4.23
+BetaWave,Hardware,North America,2023,59.3,5.75,4410,967,1.89,3.2,8.64
+TechCorp,Cloud,Asia Pacific,2022,48.71,15.52,1649,7032,-0.39,3.8,7.93
+AlphaAI,Services,Asia Pacific,2021,80.38,9.09,3574,7477,21.24,3.7,4.05
+BetaWave,Services,Latin America,2023,97.52,22.12,227,6386,18.64,4.8,10.34
+MegaCorp,Software,Middle East,2022,28.65,0.33,4955,1728,25.36,3.3,1.61
+MegaCorp,Cloud,North America,2022,67.11,14.78,2861,665,12.07,3.3,2.47
+BetaWave,AI/ML,Asia Pacific,2024,37.269999999999996,17.68,4556,9991,11.66,3.7,9.8
+FutureTech,Services,North America,2024,99.59,7.42,4764,7136,9.7,3.1,3.37
+AlphaAI,Software,Europe,2022,73.49000000000001,9.99,1515,4799,8.05,,20.86
+TechCorp,AI/ML,Latin America,2024,186.88,15.12,301,3555,9.65,4.9,4.14
+BetaWave,Cloud,Europe,2023,28.57,22.64,2469,4579,13.3,3.9,8.85
+FutureTech,Services,North America,2020,12.94,6.74,617,1185,6.94,4.3,3.57
+MegaCorp,AI/ML,North America,2023,41.58,8.13,1441,8616,1.98,4.5,3.77
+MegaCorp,AI/ML,Middle East,2022,35.17,24.0,4876,7276,12.96,3.7,3.41
+NextGen,AI/ML,Asia Pacific,2022,34.18,12.82,2088,5212,6.8,3.3,7.35
+BetaWave,Services,Asia Pacific,2023,143.36,8.78,3645,256,-7.44,3.4,4.97
+AlphaAI,Services,Europe,2024,44.35,20.83,4620,4925,15.32,3.6,15.39
+DataInc,Hardware,Latin America,2024,45.870000000000005,11.09,3902,1369,5.35,4.3,2.44
+AlphaAI,Cloud,Asia Pacific,2022,91.23,,3375,1191,15.97,3.8,1.53
+MegaCorp,Software,Middle East,2021,44.87,9.69,3754,4677,15.83,3.0,3.5
+MegaCorp,AI/ML,Europe,2024,104.96,13.72,2534,7439,13.7,4.0,5.79
+CloudSys,Hardware,Europe,2023,28.380000000000003,22.56,4973,2740,26.98,4.8,10.86
+MegaCorp,Software,Middle East,2024,63.43,13.19,307,7373,11.17,4.6,3.12
+TechCorp,Hardware,Latin America,2023,26.71,21.05,2733,3305,10.29,4.7,6.3
+InnoVate,Services,Middle East,2022,23.240000000000002,14.48,4217,8331,16.1,4.6,3.16
+BetaWave,AI/ML,Latin America,2024,148.46,30.85,253,5263,11.67,3.6,5.8
+AlphaAI,Software,Middle East,2023,32.5,27.55,3466,4158,18.96,4.5,11.81
+InnoVate,Software,Middle East,2022,58.01,4.38,4414,3070,4.39,3.3,2.32
+FutureTech,Software,North America,2021,41.47,19.18,4864,1907,4.49,4.3,3.59
+DataInc,Software,Europe,2023,46.34,8.47,1618,9046,16.59,4.3,26.0
+TechCorp,Software,Middle East,2021,130.05,16.53,2700,9186,5.01,3.1,11.15
+AlphaAI,Hardware,Middle East,2021,16.1,15.55,2295,2839,15.65,4.6,5.16
+InnoVate,AI/ML,Asia Pacific,2020,64.5,6.56,4598,3925,14.22,4.8,4.63
+DataInc,Services,Europe,2024,195.38,,4791,7655,7.83,3.5,2.67
+CloudSys,Services,Asia Pacific,2023,66.07,16.63,3654,9852,14.2,4.6,4.64
+TechCorp,Services,Europe,2021,153.09,12.72,2514,8185,4.59,3.2,10.43
+TechCorp,Services,Asia Pacific,2020,12.68,11.5,2949,6105,6.0,4.2,6.78
+CloudSys,Hardware,Middle East,2022,47.13,16.12,1842,3932,10.58,4.0,2.71
+BetaWave,Cloud,Middle East,2023,40.07,18.26,1406,7225,12.47,4.1,2.12
+CloudSys,AI/ML,North America,2021,80.62,14.0,3949,7179,10.18,4.9,2.54
+TechCorp,Software,Asia Pacific,2024,228.95,-7.66,4268,5071,14.6,4.7,1.93
+TechCorp,Cloud,Latin America,2020,24.82,15.14,4676,4785,14.33,4.6,1.5
+InnoVate,Services,North America,2021,68.09,3.47,4755,2437,21.18,3.5,3.72
+MegaCorp,Cloud,Asia Pacific,2024,41.04,13.32,4940,6632,11.43,4.8,1.6
+DataInc,AI/ML,Asia Pacific,2021,56.66,3.76,4295,9183,19.17,3.2,1.94
+CloudSys,Software,North America,2023,56.17,3.67,2655,5916,17.52,4.7,4.96
+DataInc,Software,Middle East,2023,203.79,24.88,2405,2616,25.76,3.7,1.9
+CloudSys,AI/ML,Asia Pacific,2023,71.89,12.44,4608,1025,11.24,3.1,1.33
+FutureTech,AI/ML,Middle East,2020,31.5,11.83,1188,7262,9.48,4.3,2.91
+TechCorp,Services,North America,2023,31.06,18.86,2742,9196,19.55,3.5,2.24
+MegaCorp,Software,Middle East,2024,38.2,12.04,1277,1312,14.31,3.5,4.62
+InnoVate,Cloud,Europe,2021,27.77,31.83,4857,5097,19.69,3.6,1.54
+MegaCorp,Hardware,Latin America,2022,34.45,12.82,3094,9185,16.3,3.1,7.97
+MegaCorp,Hardware,Asia Pacific,2024,125.06,17.92,659,7432,-0.64,3.4,12.83
+MegaCorp,AI/ML,Latin America,2024,71.19,22.77,3064,6281,14.26,3.0,7.8
+DataInc,Services,Middle East,2023,62.05,27.82,1371,3377,13.87,3.9,4.81
+CloudSys,Hardware,Asia Pacific,2020,16.1,9.06,1913,5680,12.8,3.2,10.85
+SkyNet,Software,Middle East,2021,113.36,11.66,3015,2309,11.21,4.4,6.94
+FutureTech,AI/ML,Europe,2020,74.15,25.2,709,1307,2.45,3.5,1.05
+AlphaAI,Cloud,North America,2021,18.5,21.48,2561,514,17.25,4.9,3.51
+MegaCorp,AI/ML,Asia Pacific,2021,76.52,23.6,4220,3344,14.24,4.7,10.52
+BetaWave,Cloud,Europe,2020,49.21,4.05,383,6824,18.61,3.6,3.12
+DataInc,AI/ML,Europe,2024,34.26,,3028,7481,2.77,4.6,1.18
+InnoVate,AI/ML,Asia Pacific,2021,45.65,8.91,4496,1280,15.04,4.6,7.86
+AlphaAI,AI/ML,Middle East,2020,43.15,,1191,9126,10.59,5.0,9.1
+SkyNet,Cloud,Europe,2021,24.06,13.81,916,3855,12.86,4.2,1.88
+BetaWave,Cloud,Latin America,2022,165.66,7.97,182,6469,10.66,3.2,4.85
+SkyNet,AI/ML,Europe,2024,124.85,3.7,2020,5800,15.26,4.3,2.07
+AlphaAI,Hardware,Middle East,2023,80.29,1.05,3591,3906,11.02,4.2,7.35
+MegaCorp,Services,Middle East,2021,46.02,15.95,3244,3185,5.69,4.3,2.58
+BetaWave,Services,Latin America,2022,46.53,2.8,2193,7003,12.52,3.6,2.9
+SkyNet,Services,Europe,2023,77.63,5.93,4813,9166,10.71,4.7,10.32
+InnoVate,Cloud,Middle East,2023,64.42,13.26,275,6084,11.5,4.9,4.23
+CloudSys,Cloud,Asia Pacific,2021,18.21,-6.11,2804,4639,-7.13,3.4,6.54
+TechCorp,Hardware,North America,2020,45.92,21.23,469,1596,16.1,3.2,3.57
+CloudSys,Services,North America,2021,97.1,-4.28,1918,6115,10.11,3.4,2.77
+AlphaAI,Services,North America,2022,50.74,14.38,2201,1144,3.91,4.6,5.91
+DataInc,AI/ML,Europe,2023,27.67,15.12,4885,2461,17.54,4.4,1.84
+TechCorp,Cloud,Latin America,2021,92.15,19.3,3590,2667,15.82,4.3,3.33
+FutureTech,Services,Middle East,2020,21.24,14.67,1879,9004,10.04,3.8,2.17
+InnoVate,Hardware,Asia Pacific,2021,29.96,31.14,1464,4195,5.09,4.2,6.95
+FutureTech,Hardware,Asia Pacific,2024,39.0,16.73,4562,2825,13.07,3.6,15.43
+BetaWave,Services,Europe,2020,30.04,23.43,3442,6678,12.74,4.0,28.03
+TechCorp,Cloud,North America,2022,90.68,9.21,4839,3205,17.55,4.6,3.99
+FutureTech,Hardware,Europe,2023,61.63,,3776,4020,9.34,5.0,2.46
+FutureTech,AI/ML,Latin America,2021,26.46,27.38,2526,8022,19.17,4.9,3.92
+SkyNet,Hardware,Latin America,2020,115.12,13.1,172,8825,8.76,4.9,10.4
+CloudSys,Software,Middle East,2024,135.84,16.54,3062,5465,3.93,3.8,2.15
