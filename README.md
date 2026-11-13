@@ -26,7 +26,7 @@ Upload a Shopify, Tally, marketplace or Excel export. ClearMIS fixes what raw ex
 
 Every one of 8 planted data problems was found with the exact row count in both sets: duplicate rows (1,178 / 1,545), cancelled orders, test orders, returns booked as positive, other currencies, future dates, missing amounts and blank regions.
 
-**What the numbers say:** summing a raw export overstates revenue by 10 to 14%. ClearMIS matches the true ledger exactly. It names the right driver every month; the simple "biggest change" view is fooled when the whole business moves (dev: 4/6). On new wording the keyword planner answers 14 of 22 and refuses the rest rather than guessing; connecting an LLM (below) handles free-form questions, still without running code.
+**What the numbers say:** summing a raw export overstates monthly revenue, by up to 10% on dev data and 14% on held-out. ClearMIS matches the true ledger exactly. It names the right driver every month; the simple "biggest change" view is fooled when the whole business moves (dev: 4/6). On new wording the keyword planner answers 14 of 22 and refuses the rest rather than guessing; connecting an LLM (below) handles free-form questions, still without running code.
 
 ## Who buys it and how it is sold
 
