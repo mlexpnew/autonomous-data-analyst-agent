@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clearmis"
+version = "1.0.0"
+description = "Monthly MIS reports from raw sales exports, with every number verified"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+dependencies = ["pandas>=2.1", "numpy>=1.26", "pydantic>=2.6", "openpyxl>=3.1", "requests>=2.31"]
+
+[project.optional-dependencies]
+api = ["fastapi>=0.110", "uvicorn>=0.29", "python-multipart>=0.0.9"]
+app = ["streamlit>=1.35"]
+dev = ["pytest>=8", "ruff>=0.5", "httpx>=0.27", "fastapi>=0.110", "python-multipart>=0.0.9",
+       "streamlit>=1.35"]
+
+[project.scripts]
+clearmis = "clearmis.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["B008"]
