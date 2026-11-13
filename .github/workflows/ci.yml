@@ -1,0 +1,38 @@
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e ".[dev]"
+      - run: ruff check . && ruff format --check .
+      - run: pytest -q
+      - name: Benchmark gate (exact revenue, every driver, unusual days, verified numbers)
+        run: python -m clearmis.evaluate --gate
+      - run: cat eval_results/report.md >> "$GITHUB_STEP_SUMMARY"
+
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: docker build -t clearmis .
+      - name: Smoke test with a sample Shopify export
+        run: |
+          pip install -e . -q
+          clearmis demo --out sample.csv --months 4
+          docker run -d --name cm -p 8000:8000 -e CLEARMIS_API_KEYS=k clearmis
+          for i in $(seq 1 30); do curl -sf localhost:8000/health && break; sleep 1; done
+          id=$(curl -sf -H 'X-API-Key: k' -F file=@sample.csv localhost:8000/v1/reports | python -c "import sys,json; print(json.load(sys.stdin)['id'])")
+          curl -sf -H 'X-API-Key: k' localhost:8000/v1/reports/$id | grep -q "Net revenue"
+          curl -sf -H 'X-API-Key: k' -o mis.xlsx localhost:8000/v1/reports/$id/xlsx && test -s mis.xlsx

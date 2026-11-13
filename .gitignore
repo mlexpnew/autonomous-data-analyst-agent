@@ -1,24 +1,10 @@
-# Virtual environments
-venv/
-.venv/
-env/
-
-# Secrets
-.env
-
-# Python caches
 __pycache__/
-*.py[cod]
-.pytest_cache/
-.mypy_cache/
-.ipynb_checkpoints/
-
-# Build
-build/
-dist/
 *.egg-info/
-
-# OS / editor
+.pytest_cache/
+.ruff_cache/
+eval_results/
+.env
+.venv/
+venv/
 .DS_Store
-.vscode/
-.idea/
+*.xlsx
