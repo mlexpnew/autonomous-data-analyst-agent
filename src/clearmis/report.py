@@ -2,16 +2,31 @@
 
 from __future__ import annotations
 
+import math
 from collections.abc import Callable
 from dataclasses import dataclass, field
 from pathlib import Path
 
+import numpy as np
 import pandas as pd
 
 from .analysis import Anomaly, Driver, anomalies, drivers, monthly_kpis
 from .ingest import load
 from .narrative import Sentence, build, render
 from .quality import Issue, clean
+
+
+def json_safe(x):
+    """NaN and infinity become None so any JSON encoder accepts the result."""
+    if isinstance(x, dict):
+        return {k: json_safe(v) for k, v in x.items()}
+    if isinstance(x, list | tuple):
+        return [json_safe(v) for v in x]
+    if isinstance(x, float | np.floating):
+        return None if not math.isfinite(float(x)) else float(x)
+    if isinstance(x, np.integer):
+        return int(x)
+    return x
 
 
 @dataclass
@@ -31,17 +46,19 @@ class Report:
     def as_dict(self) -> dict:
         k = self.kpis.reset_index()
         k["month"] = k["month"].astype(str)
-        return {
-            "month": str(self.month),
-            "summary": self.summary,
-            "kpis": k.round(2).where(k.notna(), None).to_dict(orient="records"),
-            "change_vs_previous_month": round(self.total_change, 2),
-            "drivers": [x.as_dict() for x in self.drivers],
-            "unusual_days": [a.as_dict() for a in self.anomalies],
-            "data_fixes": [i.as_dict() for i in self.issues],
-            "columns_mapped": self.mapping,
-            "dropped_unverified_sentences": self.dropped_sentences,
-        }
+        return json_safe(
+            {
+                "month": str(self.month),
+                "summary": self.summary,
+                "kpis": k.round(2).to_dict(orient="records"),
+                "change_vs_previous_month": round(self.total_change, 2),
+                "drivers": [x.as_dict() for x in self.drivers],
+                "unusual_days": [a.as_dict() for a in self.anomalies],
+                "data_fixes": [i.as_dict() for i in self.issues],
+                "columns_mapped": self.mapping,
+                "dropped_unverified_sentences": self.dropped_sentences,
+            }
+        )
 
 
 def make(
@@ -76,15 +93,21 @@ def to_excel(r: Report, path: str | Path) -> Path:
     k["month"] = k["month"].astype(str)
     with pd.ExcelWriter(path, engine="openpyxl") as xw:
         pd.DataFrame({"Summary": [s.text for s in r.sentences]}).to_excel(
-            xw, "Summary", index=False
+            xw, sheet_name="Summary", index=False
         )
-        k.round(2).to_excel(xw, "Monthly KPIs", index=False)
-        pd.DataFrame([x.as_dict() for x in r.drivers]).to_excel(xw, "Drivers", index=False)
-        pd.DataFrame([a.as_dict() for a in r.anomalies]).to_excel(xw, "Unusual days", index=False)
-        pd.DataFrame([i.as_dict() for i in r.issues]).to_excel(xw, "Data fixes", index=False)
+        k.round(2).to_excel(xw, sheet_name="Monthly KPIs", index=False)
+        pd.DataFrame([x.as_dict() for x in r.drivers]).to_excel(
+            xw, sheet_name="Drivers", index=False
+        )
+        pd.DataFrame([a.as_dict() for a in r.anomalies]).to_excel(
+            xw, sheet_name="Unusual days", index=False
+        )
+        pd.DataFrame([i.as_dict() for i in r.issues]).to_excel(
+            xw, sheet_name="Data fixes", index=False
+        )
         c = r.clean.copy()
         c["month"] = c["month"].astype(str)
-        c.to_excel(xw, "Clean ledger", index=False)
+        c.to_excel(xw, sheet_name="Clean ledger", index=False)
         for ws in xw.book.worksheets:
             for col in ws.columns:
                 ws.column_dimensions[col[0].column_letter].width = min(

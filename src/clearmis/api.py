@@ -18,7 +18,7 @@ from fastapi.responses import Response
 from pydantic import BaseModel
 
 from .ask import ask_question
-from .report import Report, make, to_excel
+from .report import Report, json_safe, make, to_excel
 
 app = FastAPI(
     title="ClearMIS",
@@ -88,4 +88,4 @@ class Question(BaseModel):
 
 @app.post("/v1/reports/{rid}/ask", dependencies=[Depends(auth)])
 def ask(rid: str, q: Question):
-    return ask_question(q.question, _get(rid).clean)
+    return json_safe(ask_question(q.question, _get(rid).clean))
