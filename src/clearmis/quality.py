@@ -77,11 +77,10 @@ def clean(
     other = d["currency"] != base_currency.upper()
     if other.any():
         convertible = other & d["currency"].isin(fx)
-        for col in ("net_amount", "unit_price", "discount", "cost"):
-            d.loc[convertible, col] = d.loc[convertible, col] * d.loc[convertible, "currency"].map(
-                fx
-            )
         if convertible.any():
+            rate = d.loc[convertible, "currency"].astype(object).map(fx).astype(float)
+            for col in ("net_amount", "unit_price", "discount", "cost"):
+                d.loc[convertible, col] = d.loc[convertible, col].astype(float) * rate
             issues.append(
                 Issue(
                     "converted_currency",

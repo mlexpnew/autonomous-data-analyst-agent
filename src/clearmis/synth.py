@@ -95,14 +95,14 @@ def _ledger(p: Profile, rng) -> tuple[pd.DataFrame, dict, list]:
     ch, chw = list(CHANNELS), np.array(list(CHANNELS.values()))
     for d in days:
         m = d.to_period("M")
-        doy = d.dayofyear  # festive build-up peaking late October, soft monsoon dip
+        doy = d.day_of_year  # festive build-up peaking late October, soft monsoon dip
         season = (
             1
             + 0.30 * np.exp(-(((doy - 300) / 22) ** 2))
             - 0.08 * np.exp(-(((doy - 190) / 25) ** 2))
         )
         trend = 1 + 0.01 * (m - months[0]).n
-        lam = p.orders_per_day * p.weekday[d.dayofweek] * season * trend * a_mult.get(d, 1.0)
+        lam = p.orders_per_day * p.weekday[d.day_of_week] * season * trend * a_mult.get(d, 1.0)
         lam *= np.exp(rng.normal(0, p.noise))
         ev = events.get(m)
         rw, cw = regw.copy(), chw.copy()
