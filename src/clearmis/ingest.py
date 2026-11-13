@@ -193,6 +193,7 @@ def load(path_or_df, base_currency: str = "INR") -> tuple[pd.DataFrame, dict[str
             if p.suffix.lower() in (".xlsx", ".xls")
             else pd.read_csv(p, dtype=str, keep_default_na=False)
         )
+    raw = raw.astype(object)  # same behaviour on pandas 2 and pandas 3 (pyarrow strings)
     mapping = map_columns(list(raw.columns))
     df = raw.rename(columns=mapping)[list(mapping.values())].copy()
     for c in CANONICAL:
@@ -200,7 +201,7 @@ def load(path_or_df, base_currency: str = "INR") -> tuple[pd.DataFrame, dict[str
             df[c] = np.nan
     df = df[CANONICAL]
     for c in ("qty", "unit_price", "discount", "net_amount", "cost"):
-        df[c] = df[c].map(parse_number)
+        df[c] = df[c].astype(object).map(parse_number).astype(float)
     df["date"] = parse_dates(df["date"])
     if df["net_amount"].isna().all():  # e.g. Shopify line items: compute from price
         df["net_amount"] = df["qty"] * df["unit_price"] - df["discount"].fillna(0)
